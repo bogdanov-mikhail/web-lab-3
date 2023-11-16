@@ -1,0 +1,130 @@
+#footer {
+    margin: 0;
+    padding: 0;
+    height: 5%;
+    background: dimgrey;
+}
+
+#header {
+    margin: 0;
+    padding: 0;
+    height: 5%;
+    background: dimgrey;
+}
+
+body {
+    margin: 0;
+}
+
+* {
+    font-family: inherit;
+    font-size: inherit;
+}
+
+.main {
+    margin: 0;
+    padding: 0;
+    height: 90%;
+    background: #E0E0E0;
+}
+
+.form_container {
+    margin: 0 auto;
+    width: 60%;
+}
+
+.form {
+    margin: 0 auto;
+    width: 60%;
+}
+
+.form_name_container {
+    text-align: center;
+    margin: 0 auto;
+    padding: 10px;
+    width: 60%;
+    font-size: 35px;
+}
+
+.form_input {
+    border-radius:10px;
+    border: 1px solid grey;
+    margin: 3px auto;
+    padding: 10px;
+    width: 80%;
+    display: block;
+}
+
+.form_input:hover {
+    border: 1px solid black;
+}
+
+.form_textarea {
+    resize: none;
+    height: 10%;
+}
+
+#goods-label {
+    font-size: 25px;
+}
+
+.form_select {
+    display: block;
+    overflow: auto;
+}
+
+.form_option {
+    color: dimgrey;
+}
+
+.form_button {
+    background: lightgray;
+}
+
+.form_button:hover {
+    background: darkgray;
+}
+
+#radio_sex_container {
+    border: 1px solid grey;
+    border-radius: 10px;
+    width: 200px;
+    height: 60px;
+    margin: 3px 0 3px 67px;
+    float: left;
+}
+
+#check_box_container {
+    border: 1px solid grey;
+    border-radius:10px;
+    width: 300px;
+    height: 70px;
+    margin: 3px 68px 3px 0;
+    float: right;
+}
+
+.sex_radio {
+    float: left;
+    display: block;
+    margin: 5px 10px;
+}
+
+.sex_radio[value="man"] {
+    float: left;
+    display: block;
+    margin: 10px 10px;
+}
+
+.sex_radio_label {
+    font-size: 20px;
+    display: block;
+    margin: 5px 20px;
+}
+
+#check_box_list {
+    margin: 3px 0;
+    padding-left: 2px;
+    list-style: none;
+}
+
+
